@@ -11,7 +11,7 @@ channel.send(`**Volly,Volly,Volly,Volly,Volly,**`);
 })
  
 client.on('message', message => {
-    var prefix = "1";
+    var prefix = "2";
     if (message.author.bot) return;
     if (!message.content.startsWith(prefix)) return;
   
